@@ -4,16 +4,13 @@ import { Link } from "react-router";
 export default function App() {
   return (
     <>
-      <nav>
-        <ul>
-          <li>
+      <nav className="nav-bar">
+        <ul className="links">
+          <li className="list-item">
             <Link to={"/"}>Home</Link>
           </li>
-          <li>
+          <li className="list-item">
             <Link to={"shop"}>Shop</Link>
-          </li>
-          <li>
-            <Link to={"cart"}>Cart</Link>
           </li>
         </ul>
       </nav>

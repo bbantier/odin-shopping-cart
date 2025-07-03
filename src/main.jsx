@@ -4,7 +4,6 @@ import './index.css'
 import { createBrowserRouter, RouterProvider } from 'react-router'
 import App from './App'
 import Shop from "./components/Shop/Shop";
-import Cart from "./components/Cart/Cart";
 
 const router = createBrowserRouter([
   {
@@ -14,10 +13,6 @@ const router = createBrowserRouter([
   {
     path: "shop",
     element: <Shop />,
-  },
-  {
-    path: "cart",
-    element: <Cart />,
   },
 ]);
 
