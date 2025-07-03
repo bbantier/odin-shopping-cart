@@ -1,16 +1,17 @@
 import { Link } from "react-router";
+import "./Nav.css";
 
 export default function Nav() {
   return (
-    <nav>
-      <ul>
-        <li>
-          <Link to={"/"}>Shop</Link>
+    <nav className="nav-bar">
+      <ul className="links">
+        <li className="list-item">
+          <Link to={"/"}>Home</Link>
         </li>
-        <li>
-          <Link to={"cart"}>Cart</Link>
+        <li className="list-item">
+          <Link to={"shop"}>Shop</Link>
         </li>
       </ul>
     </nav>
-  )
+  );
 }

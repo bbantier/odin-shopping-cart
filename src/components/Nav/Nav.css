@@ -1,0 +1,27 @@
+.nav-bar {
+  background-color: black;
+  padding: 15px;
+}
+
+.links {
+  display: flex;
+  justify-content: center;
+  gap: 2px;
+  list-style-type: none;
+}
+
+.list-item {
+  background-color: white;
+  padding: 5px 15px;
+  transition: all 0.3s ease-out;
+}
+
+.list-item:hover {
+  background-color: yellow;
+}
+
+.list-item a {
+  color: black;
+  font-weight: bold;
+  text-decoration: none;
+}
